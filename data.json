@@ -1,0 +1,78 @@
+[
+    {
+        "section": "Proposal for 'CXMAHO' fiber distribution with Company A",
+        "mails": [
+            {
+                "description": "Have you reviewed the proposal we provided for CXMAHO?",
+                "caller": "Our Company"
+            },
+            {
+                "description": "We have reviewed the proposal. However, the heat resistance of the proposed product does not meet our standards, so we find it difficult to proceed.",
+                "caller": "Company A"
+            },
+            {
+                "description": "We have another fiber called VXKWSA with higher heat resistance. May we send you a proposal for this product?",
+                "caller": "Our Company"
+            },
+            {
+                "description": "Yes, please send us the proposal for that product.",
+                "caller": "Company A"
+            }
+        ]
+    },
+    {
+        "section": "Proposal for 'VXKWSA' fiber distribution with Company A",
+        "mails": [
+            {
+                "description": "We have sent you the proposal for VXKWSA fiber, which has higher heat resistance as requested. Please review and provide feedback.",
+                "caller": "Our Company"
+            },
+            {
+                "description": "We have reviewed the proposal again. It seems that VXKWSA has indeed higher heat resistance compared to CXMAHO. However, the pricing does not fit our budget, so we find it difficult to proceed at this time.",
+                "caller": "Company A"
+            },
+            {
+                "description": "It's unfortunate. However, we are always available, so please contact us if the fiber fits your needs in the future.",
+                "caller": "Our Company"
+            },
+            {
+                "description": "Thank you for your time. We hope to be good partners in the future.",
+                "caller": "Company A"
+            }
+        ]
+    },
+    {
+        "section": "Proposal for 'CXMAHO' fiber distribution with Company B",
+        "mails": [
+            {
+                "description": "Have you reviewed the proposal we provided for CXMAHO?",
+                "caller": "Our Company"
+            },
+            {
+                "description": "Sorry, we are currently dealing with another company for CXMAHO.",
+                "caller": "Company B"
+            },
+            {
+                "description": "Understood. Please contact us in the future if there is an opportunity to work together.",
+                "caller": "Our Company"
+            }
+        ]
+    },
+    {
+        "section": "Proposal for 'CXMAHO' fiber distribution with Company C",
+        "mails": [
+            {
+                "description": "Have you reviewed the proposal we provided for CXMAHO?",
+                "caller": "Our Company"
+            },
+            {
+                "description": "Yes, could you please tell us the adjustable range for the unit price if we import over 1,000 units?",
+                "caller": "Company C"
+            },
+            {
+                "description": "For direct import, we can adjust the price from $200 to $176.",
+                "caller": "Our Company"
+            }
+        ]
+    }
+]
