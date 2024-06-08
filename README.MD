@@ -15,7 +15,7 @@ VPHO is a simple structural approach rather than a complex tree structure. When 
 
 ## Let's compare the differences using a simple structured format.
 
-````json
+```json
 [
   {
     "section": "Proposal for 'CXMAHO' fiber distribution with Company A",
@@ -95,6 +95,7 @@ VPHO is a simple structural approach rather than a complex tree structure. When 
   }
 ]
 ```
+
 This is a scenario created with a fictional trading company proposing a fictional fiber.
 
 ```python
@@ -147,12 +148,16 @@ print("")
 print("")
 print("----------------------------------")
 ```
+
 OutPut
+
 ```sh
 {'ids': [['9', '0', '11']], 'distances': [[8.449447631835938, 10.806978225708008, 10.806978225708008]], 'metadatas': [[{'caller': 'Company B', 'description': 'Sorry, we are currently dealing with another company for CXMAHO.'}, {'caller': 'Our Company', 'description': 'Have you reviewed the proposal we provided for CXMAHO?'}, {'caller': 'Our Company', 'description': 'Have you reviewed the proposal we provided for CXMAHO?'}]], 'embeddings': None, 'documents': [[None, None, None]], 'uris': None, 'data': None}
 ```
-As mentioned earlier, in such cases, the computer cannot yet flexibly interpret natural language like humans and only finds results based on the strict similarities it recognizes. Therefore, it cannot provide the answers we are looking for.
 
+---
+
+As mentioned earlier, in such cases, the computer cannot yet flexibly interpret natural language like humans and only finds results based on the strict similarities it recognizes. Therefore, it cannot provide the answers we are looking for.
 
 ### Now, let's try again using the VPHO structure.
 
@@ -206,11 +211,16 @@ print("")
 print("----------------------------------")
 ```
 
-OutPut
+---
+
+## OutPut
+
 ```sh
 {'ids': [['0']], 'distances': [[18.791038513183594]], 'metadatas': [[{'logs': '[{"description": "Have you reviewed the proposal we provided for CXMAHO?", "caller": "Our Company"}, {"description": "We have reviewed
 the proposal. However, the heat resistance of the proposed product does not meet our standards, so we find
 it difficult to proceed.", "caller": "Company A"}, {"description": "We have another fiber called VXKWSA with higher heat resistance. May we send you a proposal for this product?", "caller": "Our Company"}, {"description": "Yes, please send us the proposal for that product.", "caller": "Company A"}]'}]], 'embeddings': None, 'documents': [[None]], 'uris': None, 'data': None}
 ```
+
+---
+
 By finding summaries that are similar to our desired questions and sharing the relevant data, the LLM can easily understand and provide the desired answers.
-````
